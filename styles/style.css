@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* default style */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.primary-text-clr-1{
+    color: #fd6e0a;
+}
+
+.primary-text-clr-2{
+    color: #474747;
+}
+
+
+/* navbar related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+nav h3 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #fd6e0a;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
