@@ -19,6 +19,16 @@
     color: #474747;
 }
 
+.primary-btn{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #fd6e0a;
+}
+
 
 /* navbar related styles */
 
@@ -46,16 +56,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-}
-
-nav ul li button {
-    border: none;
-    padding: 15px 30px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: #fd6e0a;
 }
 
 nav ul {
