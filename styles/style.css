@@ -208,3 +208,47 @@ section.about {
     font-size: 14px;
     line-height: 25px;
 }
+
+
+/* resume related styles */
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.my-education h1 {
+    margin-bottom: 30px;
+}
+
+.single-education h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.single-education h4 {
+    margin-bottom: 15px;
+}
+
+.single-education p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.single-education {
+    margin-top: 30px;
+}
+
+.my-education hr {
+    margin-top: 25px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
