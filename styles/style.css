@@ -312,7 +312,7 @@ form input[type="text"], input[type="email"], textarea {
 /* responsive styles for small devices */
 
 @media screen and (max-width:576px) {
-     nav, .banner, .about-info, .skills{
+     nav, .banner, .about-info, .skills, .resume-container{
         flex-direction: column;
      }
 
