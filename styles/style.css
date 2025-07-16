@@ -312,7 +312,7 @@ form input[type="text"], input[type="email"], textarea {
 /* responsive styles for small devices */
 
 @media screen and (max-width:576px) {
-     nav, .banner, .about-info, .skills, .resume-container{
+     nav, .banner, .about-info, .skills, .resume-container, .footer{
         flex-direction: column;
      }
 
@@ -366,6 +366,14 @@ form input[type="text"], input[type="email"], textarea {
        }
 
        .skills-description p{
+        width: 100%;
+       }
+
+       form input[type="text"], input[type="email"], textarea{
+          width: calc(100% - 20px);
+       }
+
+       .footer-content{
         width: 100%;
        }
      
