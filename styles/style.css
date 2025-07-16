@@ -312,7 +312,7 @@ form input[type="text"], input[type="email"], textarea {
 /* responsive styles for small devices */
 
 @media screen and (max-width:576px) {
-     nav, .banner, .about-info{
+     nav, .banner, .about-info, .skills{
         flex-direction: column;
      }
 
@@ -365,5 +365,8 @@ form input[type="text"], input[type="email"], textarea {
         gap: 25px;
        }
 
+       .skills-description p{
+        width: 100%;
+       }
      
 }
