@@ -312,7 +312,7 @@ form input[type="text"], input[type="email"], textarea {
 /* responsive styles for small devices */
 
 @media screen and (max-width:576px) {
-     nav, .banner{
+     nav, .banner, .about-info{
         flex-direction: column;
      }
 
@@ -354,6 +354,15 @@ form input[type="text"], input[type="email"], textarea {
 
        button.banner-second-btn {
          margin-left: 0;
+       }
+
+       .about-content{
+         padding: 20px;
+       }
+
+       .about-info{
+        padding: 25px 0px;
+        gap: 25px;
        }
 
      
